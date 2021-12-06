@@ -112,6 +112,92 @@ h2 {
         }
     }    
 }
+@media (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        margin-top: 20px;
+        width: 355px;
+        height: 800px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+        .joinBlock {
+            height: 266px;
+            background-color: white;
+            grid-area: join;
+            padding: 40px 40px;
+            border-radius: 10px 10px 0px 0px;
+            .title {
+                color: #4CBFBD;
+                font-size: 24px;
+                font-family: 'Karla-Bold', sans-serif;
+                margin-bottom: 25px;
+            }h2 {
+                color: #C0DF33;
+            }
+            p {
+                color: #9AA7BE;
+            }
+    
+        }
+    
+        .subscriptionBlock {
+            height: 266px;
+            color: white;
+            padding: 20px 40px;
+            background-color: #2AB3B1;
+            grid-area: subscription;
+            border-radius: 0px 0px 0px 0px;
+            h2 {
+                margin-bottom: 25px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 0.8;
+            }
+            .perMonth {
+                position: relative;
+                bottom: 5px;
+                font-size: 16px;
+                color: #8ED7D5;
+                padding-left: 10px;
+            }
+            .price {
+                font-size: 32px;
+                font-family: 'Karla-Bold', sans-serif;
+            }
+            .btn {
+                color: white;
+                font-size: 16px;
+                font-family: 'Karla-Bold', sans-serif;
+                background-color: #C0DF33;
+                padding: 15px 80px;
+                border: none;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+            }
+        }
+    
+        .whyBlock {
+            height: 266px;
+            border-radius: 0px 0px 10px 10px;
+            padding: 20px 40px;
+            color: white;
+            background-color: #4BBFBD;
+            grid-area: why;
+            p {
+                margin: 0;
+                font-size: 14px;
+                font-family: 'Karla-Regular', sans-serif;
+                padding-right: 20px;
+                padding-top: 5px;
+                text-align: justify;
+                line-height: 1;
+            }
+        }
+}
+    
+}
 
 
 

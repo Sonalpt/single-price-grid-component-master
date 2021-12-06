@@ -135,6 +135,104 @@ h2 {
   line-height: 1;
 }
 
+@media (max-width: 700px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0px;
+    margin-top: 20px;
+    width: 355px;
+    height: 800px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  .container .joinBlock {
+    height: 266px;
+    background-color: white;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: join;
+    padding: 40px 40px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .container .joinBlock .title {
+    color: #4CBFBD;
+    font-size: 24px;
+    font-family: 'Karla-Bold', sans-serif;
+    margin-bottom: 25px;
+  }
+  .container .joinBlock h2 {
+    color: #C0DF33;
+  }
+  .container .joinBlock p {
+    color: #9AA7BE;
+  }
+  .container .subscriptionBlock {
+    height: 266px;
+    color: white;
+    padding: 20px 40px;
+    background-color: #2AB3B1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: subscription;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .container .subscriptionBlock h2 {
+    margin-bottom: 25px;
+  }
+  .container .subscriptionBlock p {
+    font-size: 16px;
+    line-height: 0.8;
+  }
+  .container .subscriptionBlock .perMonth {
+    position: relative;
+    bottom: 5px;
+    font-size: 16px;
+    color: #8ED7D5;
+    padding-left: 10px;
+  }
+  .container .subscriptionBlock .price {
+    font-size: 32px;
+    font-family: 'Karla-Bold', sans-serif;
+  }
+  .container .subscriptionBlock .btn {
+    color: white;
+    font-size: 16px;
+    font-family: 'Karla-Bold', sans-serif;
+    background-color: #C0DF33;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  }
+  .container .whyBlock {
+    height: 266px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 40px;
+    color: white;
+    background-color: #4BBFBD;
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: why;
+  }
+  .container .whyBlock p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Karla-Regular', sans-serif;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: justify;
+    line-height: 1;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
